@@ -1,1 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .section {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .section:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .section {
+        width: 32%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .section:nth-child(3n) {
+        margin-right: 0;
+    }
+}
 
