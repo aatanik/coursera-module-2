@@ -1,4 +1,36 @@
- {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylee.css">
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Module 2 solution</title>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class='row'>
+        <div class='col-lg-4 col-md-6 col-sm-12'>
+            <div class='section'>
+                <span id='pp1'>Chicken</span>
+                <p>Tender chicken cooked with love and seasoned with a secret sauce. An ideal choice for true lovers of classic dishes.</p>
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-6 col-sm-12'>
+            <div class='section'>
+                <span id='pp2'>Beef</span>
+                <p>Selected beef, roasted to perfect juiciness and served with exquisite seasonings. Enjoy the rich taste of our gourmet beef dishes.</p>
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-12 col-sm-12'>
+            <div class='section'>
+                <span id='pp3'>Sushi</span>
+                <p>Exquisite rolls and sushi made from the freshest seafood and selected rice. Plunge into the world of oriental flavors and enjoy every bite of our unique sushi.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+{
   box-sizing: border-box;
 }
 
