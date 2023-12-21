@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<link rel="stylesheet"
-type="text/css"
-href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="
-    <title>Practice</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Module 2 solution</title>
 </head>
-
 <body>
-<h1 style="color: black">Register</h1>
-<p>hi</p>
-    <form action="holiday3871@gmail.com"
-    method="post" inline>
-    <label for="first-name">
-        <input class="first-name"
-        placeholder="First Name"
-        type="text"
-        id="first-name">
-    </label>
-    <label for="last-name">
-        <input class="last-name"
-        placeholder="Last Name"
-        type="text"
-        type="last-name">
-        </label>
-        <label for="email"
-        type="email">
-                <input class="email"
-                placeholder="Email"
-                id="email">
-                <input class="number"
-                        placeholder="Age"
-                        id="age">
-                </label>
-    </form>
+    <h1>Our Menu</h1>
+    <div class='row'>
+        <div class='col-lg-4 col-md-6 col-sm-12'>
+            <div class='section'>
+                <span id='pp1'>Chicken</span>
+                <p>Tender chicken cooked with love and seasoned with a secret sauce. An ideal choice for true lovers of classic dishes.</p>
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-6 col-sm-12'>
+            <div class='section'>
+                <span id='pp2'>Beef</span>
+                <p>Selected beef, roasted to perfect juiciness and served with exquisite seasonings. Enjoy the rich taste of our gourmet beef dishes.</p>
+            </div>
+        </div>
+        <div class='col-lg-4 col-md-12 col-sm-12'>
+            <div class='section'>
+                <span id='pp3'>Sushi</span>
+                <p>Exquisite rolls and sushi made from the freshest seafood and selected rice. Plunge into the world of oriental flavors and enjoy every bite of our unique sushi.</p>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
